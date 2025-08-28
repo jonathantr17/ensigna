@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* âœ… Ajuste extra Ãºtil */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* ðŸ” evita que se desborde horizontalmente */
+}
+
+
+
+/* Ocultar scrollbar en Chrome, Safari y Edge */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Ocultar scrollbar en Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE y Edge */
+  scrollbar-width: none;     /* Firefox */
+}
